@@ -1,8 +1,7 @@
 <?php
  
 $strAccessToken = "2SFLA26CIksJ3G0OJ+tSsbWN3Ez6Auy07WRy2A2M1tlhAI3PPGl7WXgGH6uEF+Ad4CpdC1WHBNoK/bE1NhDO/O6+pAVQsXoXOMVD6Z0j6g199fQbxph/o16tBJXCBTIxRjDVRp/xy8KQ2eF9ke6gQQdB04t89/1O/w1cDnyilFU=";
-//$proxy = 'http://fixie:xsqTQpRwiqxR28F@velodrome.usefixie.com:80';
-//$proxyauth = 'nu.ed@hotmail.com:wy*8ghhe';
+
  
 $content = file_get_contents('php://input');
 $arrJson = json_decode($content, true);
